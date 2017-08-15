@@ -1,3 +1,8 @@
-/**
- * Created by israel on 08/08/17.
- */
+export interface Restaurant {
+    id:                 String
+    name:               String
+    category:           String
+    deliveryEstimate:   String
+    rating:             number
+    imagePath:          String
+}
